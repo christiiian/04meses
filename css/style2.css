@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Duru Sans', sans-serif; 
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(40deg, #000000, #11114e);
+    color: #c79845;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+main li {
+    list-style-type: none;
+}
+
+main a {
+    color: #c79845;
+    text-decoration: none;
+}
+

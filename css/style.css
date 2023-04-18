@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Duru Sans', sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(40deg, #000000, #11114e);
+}
+
+h2 {
+    position: relative;
+    display: flex;
+    gap: 25px;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+h2 span {
+    position: relative;
+    filter: blur(5px);
+    padding: 0 5px;
+    transition: 0.5s;
+}
+
+h2 span:hover {
+    filter: blur(0);
+    transition: 0;
+}
+
+h2 span i {
+    position: absolute;
+    inset: 0;
+    background: transparent;
+}
+
+h2 span:hover i ::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 8px;
+    background-color: #fff;
+    box-sizing: 0 53px #fff, 36px, 53px, #fff;
+}
+
+a {
+    color: #c79845;
+    text-decoration: none;
+}
